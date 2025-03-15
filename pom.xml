@@ -19,6 +19,7 @@
 	</dependencies>
 	
 	<build>
+		<filename>spring-rest-new</filename>
 <plugins>
 <plugin>
 <groupId>org.springframework.boot</groupId>
