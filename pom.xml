@@ -19,12 +19,15 @@
 	</dependencies>
 	
 	<build>
-		<fileName>spring-rest-hello</fileName>
-<plugins>
-<plugin>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
-</plugins>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <configuration>
+                <finalName>spring-rest-hello</finalName> <!-- Correct configuration -->
+            </configuration>
+        </plugin>
+    </plugins>
 </build>
+
 </project>
